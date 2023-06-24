@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Project from '../../../Back-End/models/Project-Model';
+import Project from '../models/Project-Model';
 import ProjectForm from './ProjectForm';
 
 const Home = () => {

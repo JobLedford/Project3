@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import Project from '/home/killerkira6/Desktop/WESTCLIFF/Project3/everything-zen/Back-End/models/Project-Model.js';
+import Project from '../models/Project-Model';
+
 
 const ProjectForm = ({ onFormSUbmit }) => {
     const [title, setTitle] = useState('');
